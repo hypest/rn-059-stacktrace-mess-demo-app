@@ -19,6 +19,9 @@ const instructions = Platform.select({
 type Props = {};
 export default class App extends Component<Props> {
   render() {
+    console.log("Before the debugger statement");
+    debugger;
+    console.log("After the debugger statement");
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>Welcome to React Native!</Text>
