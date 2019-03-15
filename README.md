@@ -1,5 +1,5 @@
 # rn-059-stacktrace-mess-demo-app
-This is a demo React Native application to showcase a stacktrace bug with the debugger on Android
+This is a demo React Native application to showcase a stacktrace bug with the debugger on Android (https://github.com/facebook/react-native/issues/23955)
 
 # Steps to reproduce the issue
 1. Clone this repo and
